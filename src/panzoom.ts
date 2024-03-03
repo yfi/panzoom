@@ -278,7 +278,7 @@ function Panzoom(
         if (options.contain === 'inside') {
           maxScale = Math.min(maxScale, elemScaledWidth, elemScaledHeight)
         } else if (options.contain === 'outside') {
-          minScale = Math.max(minScale, elemScaledWidth, elemScaledHeight)
+          minScale = 1
         }
       }
     }
